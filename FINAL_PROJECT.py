@@ -95,9 +95,9 @@ plt.close()
 c = canvas.Canvas("final.pdf")
 
 # First Page of the PDF
-c.drawString(200, 750, "Name: Ann Mary Shibu")
-c.drawString(200, 730, "Course: CISP-357 - Introduction to Data Science ")
-c.drawString(200, 710, "Final Project Report")
+c.drawString(200, 750, "Sacramento Historical Weather Analysis")
+c.drawString(200, 730, "Automated Data Report")
+c.drawString(200, 710, "BY ANN MARY SHIBU")
 c.drawString(10, 650, "Project Description:")
 c.drawString(10, 620, "In this project,Open-Meteo API is used to collect real world hourly temperature data for the city of")
 c.drawString(10, 600, "Sacramento. The data represents temperature readings over a seven-day period.The purpose of this project")
